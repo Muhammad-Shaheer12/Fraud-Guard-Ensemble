@@ -1,0 +1,8 @@
+artifact_location: file:///C:/Users/Mcs/Desktop/Python folder/DNN Semester Project/artifacts/mlruns/162948831580210453
+creation_time: 1776616985176
+experiment_id: '162948831580210453'
+last_update_time: 1776616985176
+lifecycle_stage: active
+name: fraud-detection-dnn
+trace_location: null
+workspace: default

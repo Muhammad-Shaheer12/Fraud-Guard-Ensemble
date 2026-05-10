@@ -1,0 +1,44 @@
+2026-04-25 21:02:10,591 INFO    MainThread:32052 [wandb_setup.py:_flush():81] Current SDK version is 0.26.0
+2026-04-25 21:02:10,591 INFO    MainThread:32052 [wandb_setup.py:_flush():81] Configure stats pid to 32052
+2026-04-25 21:02:10,591 INFO    MainThread:32052 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-04-25 21:02:10,591 INFO    MainThread:32052 [wandb_init.py:setup_run_log_directory():721] Logging user logs to C:\Users\Mcs\Desktop\Python folder\DNN Semester Project\wandb\offline-run-20260425_210210-j33yoaaj\logs\debug.log
+2026-04-25 21:02:10,591 INFO    MainThread:32052 [wandb_init.py:setup_run_log_directory():722] Logging internal logs to C:\Users\Mcs\Desktop\Python folder\DNN Semester Project\wandb\offline-run-20260425_210210-j33yoaaj\logs\debug-internal.log
+2026-04-25 21:02:10,591 INFO    MainThread:32052 [wandb_init.py:init():848] calling init triggers
+2026-04-25 21:02:10,591 INFO    MainThread:32052 [wandb_init.py:init():853] wandb.init called with sweep_config: {}
+config: {'model': 'hybrid', 'epochs': 1, 'batch_size': 64, 'lr': 0.001, '_wandb': {}}
+2026-04-25 21:02:10,591 INFO    MainThread:32052 [wandb_init.py:init():896] starting backend
+2026-04-25 21:02:12,862 INFO    MainThread:32052 [wandb_init.py:init():911] sending inform_init request
+2026-04-25 21:02:12,871 INFO    MainThread:32052 [wandb_init.py:init():919] backend started and connected
+2026-04-25 21:02:12,871 INFO    MainThread:32052 [wandb_init.py:init():989] updated telemetry
+2026-04-25 21:02:12,872 INFO    MainThread:32052 [wandb_init.py:init():1013] communicating run to backend with 90.0 second timeout
+2026-04-25 21:02:12,982 INFO    MainThread:32052 [wandb_init.py:init():1058] starting run threads in backend
+2026-04-25 21:02:13,056 INFO    MainThread:32052 [wandb_run.py:_console_start():2542] atexit reg
+2026-04-25 21:02:13,056 INFO    MainThread:32052 [wandb_run.py:_redirect():2391] redirect: wrap_raw
+2026-04-25 21:02:13,056 INFO    MainThread:32052 [wandb_run.py:_redirect():2460] Wrapping output streams.
+2026-04-25 21:02:13,056 INFO    MainThread:32052 [wandb_run.py:_redirect():2483] Redirects installed.
+2026-04-25 21:02:13,058 INFO    MainThread:32052 [wandb_init.py:init():1098] run started, returning control to user process
+2026-04-25 21:04:34,086 ERROR   wandb-AsyncioManager-main:32052 [service_client.py:_forward_responses():131] Error reading server response.
+Traceback (most recent call last):
+  File "C:\Program Files\Python310\lib\asyncio\windows_events.py", line 494, in finish_recv
+    return ov.getresult()
+OSError: [WinError 64] The specified network name is no longer available
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mcs\Desktop\Python folder\DNN Semester Project\myenv\lib\site-packages\wandb\sdk\lib\service\service_client.py", line 127, in _forward_responses
+    while response := await self._read_server_response():
+  File "C:\Users\Mcs\Desktop\Python folder\DNN Semester Project\myenv\lib\site-packages\wandb\sdk\lib\service\service_client.py", line 141, in _read_server_response
+    header = await self._reader.readexactly(_HEADER_BYTE_INT_LEN)
+  File "C:\Program Files\Python310\lib\asyncio\streams.py", line 708, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Program Files\Python310\lib\asyncio\streams.py", line 501, in _wait_for_data
+    await self._waiter
+  File "C:\Program Files\Python310\lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+  File "C:\Program Files\Python310\lib\asyncio\windows_events.py", line 826, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Program Files\Python310\lib\asyncio\windows_events.py", line 498, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] The specified network name is no longer available
+2026-04-25 21:04:34,102 INFO    wandb-AsyncioManager-main:32052 [mailbox.py:close():155] Closing mailbox, abandoning 0 handles.

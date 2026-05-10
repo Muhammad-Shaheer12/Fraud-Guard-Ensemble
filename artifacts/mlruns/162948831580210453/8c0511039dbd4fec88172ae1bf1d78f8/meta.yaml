@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Mcs/Desktop/Python folder/DNN Semester Project/artifacts/mlruns/162948831580210453/8c0511039dbd4fec88172ae1bf1d78f8/artifacts
+deleted_time: null
+end_time: null
+entry_point_name: ''
+experiment_id: '162948831580210453'
+lifecycle_stage: active
+run_id: 8c0511039dbd4fec88172ae1bf1d78f8
+run_name: transformer-run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777312539431
+status: 1
+tags: []
+user_id: Mcs

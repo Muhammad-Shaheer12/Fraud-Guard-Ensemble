@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Mcs/Desktop/Python folder/DNN Semester Project/artifacts/mlruns/162948831580210453/3210270e66b74c159272e9166b066db9/artifacts
+deleted_time: null
+end_time: null
+entry_point_name: ''
+experiment_id: '162948831580210453'
+lifecycle_stage: active
+run_id: 3210270e66b74c159272e9166b066db9
+run_name: hybrid-run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777134324828
+status: 1
+tags: []
+user_id: Mcs

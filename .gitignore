@@ -1,0 +1,37 @@
+# Environments
+myenv/
+env/
+venv/
+.env
+
+# PyCache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.DS_Store
+
+# Databases
+*.db
+*.sqlite3
+
+# Large Artifacts & Datasets
+# Exclude model weights and preprocessed joblib files due to GitHub's 100MB limit.
+artifacts/models/*.pt
+artifacts/*.joblib
+
+# We will KEEP the plots and baselines so the frontend dashboard demo still runs and looks good!
+!artifacts/plots/*.png
+!artifacts/*.npy
+
+# Raw Datasets
+ieee-fraud-detection/
+Credit Card Dataset/
+Synthetic Financial Datasets For Fraud Detection/
+
+# IDEs
+.vscode/
+.idea/

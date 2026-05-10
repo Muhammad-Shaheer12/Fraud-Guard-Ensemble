@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Mcs/Desktop/Python folder/DNN Semester Project/artifacts/mlruns/162948831580210453/5f5b20151dcf4e9c821787d562d83d9d/artifacts
+deleted_time: null
+end_time: null
+entry_point_name: ''
+experiment_id: '162948831580210453'
+lifecycle_stage: active
+run_id: 5f5b20151dcf4e9c821787d562d83d9d
+run_name: cnn-run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777209908970
+status: 1
+tags: []
+user_id: Mcs

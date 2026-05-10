@@ -1,0 +1,9 @@
+2026-04-26 14:25:23,155 INFO    MainThread:16704 [wandb_setup.py:_flush():81] Current SDK version is 0.26.0
+2026-04-26 14:25:23,155 INFO    MainThread:16704 [wandb_setup.py:_flush():81] Configure stats pid to 16704
+2026-04-26 14:25:23,155 INFO    MainThread:16704 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-04-26 14:25:23,155 INFO    MainThread:16704 [wandb_init.py:setup_run_log_directory():721] Logging user logs to C:\Users\Mcs\Desktop\Python folder\DNN Semester Project\wandb\offline-run-20260426_142523-5wnk0w2d\logs\debug.log
+2026-04-26 14:25:23,155 INFO    MainThread:16704 [wandb_init.py:setup_run_log_directory():722] Logging internal logs to C:\Users\Mcs\Desktop\Python folder\DNN Semester Project\wandb\offline-run-20260426_142523-5wnk0w2d\logs\debug-internal.log
+2026-04-26 14:25:23,155 INFO    MainThread:16704 [wandb_init.py:init():848] calling init triggers
+2026-04-26 14:25:23,155 INFO    MainThread:16704 [wandb_init.py:init():853] wandb.init called with sweep_config: {}
+config: {'model': 'cnn', 'epochs': 1, 'batch_size': 32, 'lr': 0.001, '_wandb': {}}
+2026-04-26 14:25:23,155 INFO    MainThread:16704 [wandb_init.py:init():896] starting backend

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Mcs/Desktop/Python folder/DNN Semester Project/artifacts/mlruns/162948831580210453/9870ed894dd347e980bc001a0e17ffca/artifacts
+deleted_time: null
+end_time: null
+entry_point_name: ''
+experiment_id: '162948831580210453'
+lifecycle_stage: active
+run_id: 9870ed894dd347e980bc001a0e17ffca
+run_name: lstm-run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776616988431
+status: 1
+tags: []
+user_id: Mcs
