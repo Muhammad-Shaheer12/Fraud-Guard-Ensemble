@@ -35,3 +35,6 @@ Synthetic Financial Datasets For Fraud Detection/
 # IDEs
 .vscode/
 .idea/
+
+# Large artifacts
+artifacts/ieee_preprocessed.joblib
